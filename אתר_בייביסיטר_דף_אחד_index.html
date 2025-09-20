@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>בייביסיטר לילדים 2–6</title>
+  <meta name="description" content="בייביסיטר לילדים בגילאי 2 עד 6. משחקים, עזרה ושמירה בכיף ובאהבה." />
+  <style>
+    :root{
+      --accent:#ff7aa2;
+      --bg:#e6f5ff;
+      --card:#ffffff;
+      --muted:#6b6b7a;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial; background:var(--bg); color:#111}
+    header{background:linear-gradient(135deg,#fff 0%,#fff 60%,var(--accent)10%); padding:28px 20px}
+    .container{max-width:980px;margin:0 auto;padding:0 20px}
+    .brand{display:flex;gap:14px;align-items:center}
+    .logo{width:64px;height:64px;border-radius:12px;background:linear-gradient(180deg,var(--accent),#ffcce0);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700}
+    h1{font-size:26px;margin:0}
+    p.lead{margin:8px 0 0;color:var(--muted)}
+    nav{margin-top:12px;display:flex;gap:12px;flex-wrap:wrap}
+    nav a{background:var(--card);padding:8px 12px;border-radius:10px;text-decoration:none;color:#111;box-shadow:0 1px 3px rgba(0,0,0,0.06)}
+    .hero{display:flex;gap:20px;align-items:center;padding:28px 0}
+    .hero .left{flex:1}
+    .hero .cta{margin-top:18px;display:flex;gap:12px}
+    .btn{display:inline-block;padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:600}
+    .btn-primary{background:var(--accent);color:#fff}
+    .btn-ghost{background:transparent;border:1px solid rgba(0,0,0,0.08)}
+    .card{background:var(--card);border-radius:14px;padding:18px;box-shadow:0 6px 18px rgba(16,24,40,0.06)}
+    .features{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin:18px 0}
+    .services{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin:18px 0}
+    .service{padding:12px;border-radius:10px}
+    ul{margin:8px 0 0;padding-left:18px}
+    footer{padding:20px 0;margin-top:28px;color:var(--muted)}
+    form input,form textarea{width:100%;padding:10px;border-radius:8px;border:1px solid #e5e7eb;margin-top:8px}
+    @media (max-width:880px){.two-col{grid-template-columns:1fr}.brand{justify-content:space-between}.logo{width:52px;height:52px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="brand">
+        <div class="logo">ביי</div>
+        <div>
+          <h1>בייביסיטר לילדים 2–6</h1>
+        </div>
+      </div>
+      <nav aria-label="ניווט ראשי">
+        <a href="#about">אודות</a>
+        <a href="#services">שירותים & תעריפים</a>
+        <a href="#contact">צור קשר</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="left">
+        <div class="card">
+          <h2>בייביסיטר לילדים בגיל 2–6</h2>
+          <div class="cta">
+            <a class="btn btn-primary" href="#contact">להזמין עכשיו</a>
+            <a class="btn btn-ghost" href="#services">לפרטים על תעריפים</a>
+          </div>
+        </div>
+      </div>
+      <div style="width:320px">
+        <div class="card" style="text-align:center">
+          <h3>זמינות מהירה</h3>
+          <p style="margin:6px 0">ימים: א,ב,ג,ה,שבת</p>
+          <p style="margin:6px 0">שעות: 14:00–20:00</p>
+          <p style="margin:6px 0">שעות גמישות — אחרי בית ספר, חופשים וסופי שבוע</p>
+          <p style="font-weight:700;margin:10px 0">טלפון: <a href="tel:0542294942">054-2294942</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="card">
+      <h3>אודות</h3>
+      <p>היי אני שיר, אני בת 11 — אחראית, סבלנית, עם ניסיון בשמירה על ילדים. אני דואגת למשחקים, עזרה, שמירה ובילוי בכיף ובאהבה.</p>
+      <div class="features">
+        <div class="card">
+          <strong>מה אני מציעה</strong>
+          <ul>
+            <li>משחקים ופעילויות מהנות</li>
+            <li>עזרה בסיסית בבית לפי צורך</li>
+            <li>שמירה ואכפתיות אמיתית</li>
+          </ul>
+        </div>
+        <div class="card">
+          <strong>עליי</strong>
+          <ul>
+            <li>אחראית וסבלנית</li>
+            <li>אוהבת ילדים באמת</li>
+            <li>מבטיחה יחס אישי וחם</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="card">
+      <h3>שירותים ותעריפים</h3>
+      <div class="services">
+        <div class="service card">
+          <h4>הזמנה לפי שעה</h4>
+          <p>שמירה, משחקים ופעילויות עם הילדים.</p>
+          <p style="font-weight:700">תעריף: ₪25 לשעה</p>
+        </div>
+        <div class="service card">
+          <h4>חבילת אחר הצהריים</h4>
+          <p>3 שעות של שמירה ופעילויות אחר הצהריים.</p>
+          <p style="font-weight:700">תעריף: ₪50</p>
+        </div>
+        <div class="service card">
+          <h4>עזרה בבית</h4>
+          <p>סיוע קל כמו סידור משחקים או עזרה קטנה לילדים.</p>
+          <p style="font-weight:700">כלול במסגרת השמירה</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="card">
+      <h3>צור קשר</h3>
+      <p>לפרטים נוספים והזמנות:</p>
+      <p style="font-weight:700">טלפון: <a href="tel:0542294942">054-2294942</a></p>
+      <form>
+        <label>שם</label>
+        <input type="text" placeholder="הכנס את שמך" />
+        <label>מסר</label>
+        <textarea placeholder="כתוב כאן את ההודעה שלך"></textarea>
+        <button class="btn btn-primary" type="submit" style="margin-top:10px">שלח</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="container">
+    <p>&copy; 2025 - כל הזכויות שמורות</p>
+  </footer>
+
+</body>
+</html>
